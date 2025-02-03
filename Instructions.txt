@@ -1,0 +1,43 @@
+# PyDatB 
+A Simple Python module to make access databases using modules functionality
+
+## License
+Licensed Under the MIT License @ 2025 Kunsh Jain
+
+## Installation
+
+
+
+## Usage 
+It can be used for creating accessing and doing basic funcions with databases locally without the need of an external application or link module , Make once use n times untill the python script is closed .
+
+## Functions
+
+    1.pydatb.create(name, rows, cols, header_rows)
+        Description-Creates a new table with the given name, number of rows and columns, and number of header rows.
+    2.pydatb.defheadcol(headers)
+        Description-Defines the header row(s) for the table. Takes a list of header names.
+    3.pydatb.addcols(data)
+        Description-dds data to the table. Takes a list of lists, where each inner list represents a row.
+    4.pydatb.endtable()
+        Description-Marks the end of the table definition. Important to call after adding data.
+    5.pydatb.show(name)
+        Desciption-Displays the table with the given name.
+    6.pydatb.search(name, query)
+        Description-Searches the table with the given name for the specified query.
+    7.pydatb.showstruct(name)
+        Description-Displays the structure (rows, columns, headers) of the table.  
+    8.pydatb.clear()
+        Description-Clears all defined tables from memory.
+
+## Funtion(parameter)
+
+    The functions Have to be used in order of as such:
+        1.create
+        2.defheadcol
+        3.addcols
+        4.endtable
+        5.show
+        6.showstruct
+        7.search
+        8.clear
